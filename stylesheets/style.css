@@ -116,6 +116,8 @@ img{
 }
 .steamIcon{
     padding: 15px;
+    text-decoration: none;
+    color:rgba(0,0,0,0);
 }
 .ignList
 {
