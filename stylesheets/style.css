@@ -219,21 +219,37 @@
     left: calc(50% - 110px);
     top: 0;
 }
-#next, #prev{
-    position: absolute;
+#prev, #next{
+    position: relative;
     top: 40%;
     color: #00ffff;
     background-color: transparent;
     border: none;
-    font-size: xxx-large;
+    font-size: 48px;
     font-family: monospace;
     font-weight: bold;
-    left: 400px;
+    left: 440px;
 }
-#next{
+#prev{
     left: unset;
-    right: 400px;
+    right: 440px;
 }
+#prev:hover{
+    color: rgb(170, 0, 255);
+    background-color: transparent;
+}
+#next:hover{
+    color: rgb(170, 0, 255);
+    background-color: transparent;
+}
+.albumSection{
+    text-align: center;
+    color:#adffff;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+
 
 
 
